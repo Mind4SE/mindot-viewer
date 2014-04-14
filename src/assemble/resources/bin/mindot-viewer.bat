@@ -7,4 +7,4 @@ pushd %~dp0..\
 if "%MIND_ROOT%" == "" set MIND_ROOT=%cd%
 popd
 
-python %MIND_ROOT%\lib\MindViewer.py %*
+python %MIND_ROOT%\ext\MindViewer.py %*

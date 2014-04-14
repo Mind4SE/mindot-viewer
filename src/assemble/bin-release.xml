@@ -1,0 +1,24 @@
+<assembly>
+    <id>bin</id>
+    <formats>
+        <format>zip</format>
+        <format>tar.gz</format>
+        <format>tar.bz2</format>
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+    
+    <fileSets>
+        <fileSet>
+            <directory>src/assemble/resources/bin</directory>
+            <outputDirectory>bin</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>src/assemble/resources/lib</directory>
+            <outputDirectory>ext</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>src/assemble/resources/runtime</directory>
+            <outputDirectory>runtime</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>

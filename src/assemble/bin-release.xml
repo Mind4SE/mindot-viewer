@@ -16,9 +16,5 @@
             <directory>src/assemble/resources/lib</directory>
             <outputDirectory>ext</outputDirectory>
         </fileSet>
-        <fileSet>
-            <directory>src/assemble/resources/runtime</directory>
-            <outputDirectory>runtime</outputDirectory>
-        </fileSet>
     </fileSets>
 </assembly>

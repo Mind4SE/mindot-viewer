@@ -18,7 +18,7 @@ NR==FNR{if(/->/&&NF==4) te[$1"->"$3]++;next;}
 
 !/->/{gsub("TopLevel","SimpleTopLevel");print}
 /->/{for ( i in te ) if (($1"->"$3 == i)&&(te[$1"->"$3]!=0))  
-{print i"[penwidth=" te[i]*5 " tailport=e headport=w colorscheme=\"paired12\" color="color"]"; te[$1"->"$3]=0;color=color%12+1}}
+{print i"[penwidth=" te[i]*5 " colorscheme=\"paired12\" color="color"]"; te[$1"->"$3]=0;color=color%12+1}}
 /->/&&NF<4{print}
 
 

@@ -22,5 +22,5 @@
 # Contributors: 
 # ------------------------------------------------------------------------------
 
-#echo python $(dirname $(readlink -m $0))/../ext/MindViewer.py $*
-exec python $(dirname $(readlink -m $0))/../ext/MindViewer.py $*
+#echo python $(dirname $0)/../ext/MindViewer.py "$@"
+exec python $(dirname $0)/../ext/MindViewer.py "$@"

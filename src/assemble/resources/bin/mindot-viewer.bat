@@ -20,5 +20,5 @@
 @REM  Contributors: 
 @REM -----------------------------------------------------------------------------
 @echo off
-@rem echo python %~dp0..\ext\MindViewer.py %*
-python %~dp0..\ext\MindViewer.py %*
+@rem echo python %~dp0\..\ext\MindViewer.py %*
+python %~dp0\..\ext\MindViewer.py %*
